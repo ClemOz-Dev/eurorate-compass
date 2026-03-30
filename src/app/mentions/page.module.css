@@ -1,0 +1,60 @@
+.main {
+  min-height: 100dvh;
+  padding: 24px;
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+  background: #f8fafc;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  display: grid;
+  gap: 14px;
+}
+
+.title {
+  margin: 0;
+  font-size: 30px;
+  color: #0f172a;
+}
+
+.subtitle {
+  margin: 0;
+  color: #475569;
+}
+
+.card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #fff;
+  padding: 14px;
+}
+
+.sectionTitle {
+  margin: 0 0 6px;
+  color: #0f172a;
+  font-size: 17px;
+}
+
+.text {
+  margin: 0;
+  color: #334155;
+}
+
+.actions {
+  margin-top: 8px;
+}
+
+.backLink {
+  color: #3730a3;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

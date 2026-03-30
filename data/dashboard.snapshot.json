@@ -1,0 +1,132 @@
+{
+  "updatedAt": "2026-03-30T11:27:48.023Z",
+  "data": {
+    "ok": true,
+    "asOf": "2026-03-30T11:27:48.020Z",
+    "forecast": {
+      "lastObserved": {
+        "period": "2026-01",
+        "value": 3.06
+      },
+      "forecasts": {
+        "12": {
+          "period": "2027-01",
+          "median": 2.7748089600548864,
+          "low": 2.6126500000000004,
+          "high": 2.9766967120831183
+        },
+        "24": {
+          "period": "2028-01",
+          "median": 2.498398222654043,
+          "low": 2.458398222654043,
+          "high": 2.9098492475131
+        },
+        "36": {
+          "period": "2029-01",
+          "median": 2.2532741192965533,
+          "low": 2.2132741192965533,
+          "high": 2.765241096811541
+        }
+      }
+    },
+    "drivers": [
+      {
+        "key": "depositFacility",
+        "label": "ECB deposit facility rate",
+        "current": 2,
+        "currentPeriod": "2026-01",
+        "change3m_pp": 0,
+        "change12m_pp": -1
+      },
+      {
+        "key": "mainRefi",
+        "label": "ECB main refinancing rate",
+        "current": 2.15,
+        "currentPeriod": "2026-01",
+        "change3m_pp": 0,
+        "change12m_pp": -1
+      },
+      {
+        "key": "marginalLending",
+        "label": "ECB marginal lending facility rate",
+        "current": 2.4,
+        "currentPeriod": "2026-01",
+        "change3m_pp": 0,
+        "change12m_pp": -1
+      },
+      {
+        "key": "tenYYield",
+        "label": "10-year benchmark yield (proxy for long rates)",
+        "current": 0.41234302970702474,
+        "currentPeriod": "2024-12",
+        "change3m_pp": 0,
+        "change12m_pp": 0
+      },
+      {
+        "key": "hicpHeadline",
+        "label": "HICP all-items inflation (Euro area)",
+        "current": 1.9,
+        "currentPeriod": "2025-12",
+        "change3m_pp": -0.20000000000000018,
+        "change12m_pp": -0.6000000000000001
+      },
+      {
+        "key": "hicpEnergy",
+        "label": "HICP energy inflation (Euro area, official energy category)",
+        "current": 1.2,
+        "currentPeriod": "2025-12",
+        "change3m_pp": -0.40000000000000013,
+        "change12m_pp": -1.9000000000000001
+      },
+      {
+        "key": "unemployment",
+        "label": "Unemployment rate (Euro area EA20 proxy)",
+        "current": 6.3,
+        "currentPeriod": "2025-11",
+        "change3m_pp": -0.10000000000000053,
+        "change12m_pp": 0
+      },
+      {
+        "key": "ciss",
+        "label": "CISS sovereign risk stress index (proxy)",
+        "current": 0.093179,
+        "currentPeriod": "2024-11",
+        "change3m_pp": 0,
+        "change12m_pp": 0
+      }
+    ],
+    "synthesis": {
+      "title": "France Mortgage Rates Dashboard - January 2026",
+      "summary": "The annualised agreed mortgage interest rate on new loans (PFIT > 10 years) in France stands at 3.06% as of January 2026, up 6 pp from December 2025. The rate has fluctuated within a narrow band of 2.98% to 3.06% over the past 12 months, reflecting limited directional momentum in underlying drivers. ECB policy rates have been stable over the last quarter, with deposit, main refinancing, and marginal lending facility rates unchanged at 2.00%, 2.15%, and 2.40% respectively. The 10-year benchmark yield proxy remains flat at 0.41% since December 2024, while Euro area HICP inflation has eased by 0.2 pp over the last three months and 0.6 pp over the last year, with energy inflation contributing materially to the disinflation trend. Unemployment in the Euro area has declined marginally by 0.1 pp over the last three months, remaining unchanged year-over-year at 6.3%.",
+      "actus": [
+        "Mortgage rate increased to 3.06% in January 2026 from 3.00% in December 2025, marking the highest level in the past 12 months.",
+        "ECB policy rates have been on hold since mid-2025, with no change over the last three months.",
+        "Euro area HICP inflation continues to moderate, with headline inflation at 1.9% in December 2025, down 0.6 pp from a year ago.",
+        "10-year benchmark yield proxy remains unchanged at 0.41% since December 2024, indicating limited pressure on long-term rates.",
+        "Forecast range for January 2027 widens to 2.61% to 2.98% (median 2.77%), with uncertainty increasing over longer horizons."
+      ],
+      "riskFlags": [
+        {
+          "label": "Upside risk to mortgage rates",
+          "direction": "+",
+          "explanation": "ECB policy rate path remains a key upside risk if inflation reaccelerates or if the ECB delays easing. A 1 pp increase in ECB deposit facility rate would transmit directly to mortgage rates via the model beta, ceteris paribus."
+        },
+        {
+          "label": "Downside risk from disinflation",
+          "direction": "-",
+          "explanation": "Continued disinflation, particularly in energy prices, could ease pressure on long-term yields and mortgage rates. A 0.5 pp further decline in HICP energy inflation could reduce mortgage rates by approximately 0.1 pp based on model sensitivity."
+        },
+        {
+          "label": "Geopolitical and fiscal uncertainty",
+          "direction": "±",
+          "explanation": "Escalation in geopolitical tensions or unanticipated fiscal expansion in the Euro area could introduce volatility in sovereign risk premia and long-term yields, widening the forecast spread by up to 0.2 pp over the next 12 months."
+        },
+        {
+          "label": "Model forecast dispersion",
+          "direction": "±",
+          "explanation": "Forecast spreads widen over time, with a 0.36 pp range for January 2027 and 0.55 pp for January 2029, indicating elevated uncertainty in long-term rate projections."
+        }
+      ]
+    }
+  }
+}
